@@ -8,10 +8,10 @@
 
     }
     
-    .header-container img {
+    .header-container a img {
 
-        margin: 10px;
-        width: 150px;
+        margin-bottom: 30px;
+        width: 200px;
         
          
     }
@@ -20,7 +20,7 @@
 
         width: 300px;
         
-        margin: 0 0 50px 0;
+        margin: 0 0 30px 0;
         
     }
 
