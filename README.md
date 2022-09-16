@@ -35,7 +35,7 @@ Versão Mobile
 
 ### Link
 
-- Página no GitHub Pages: <a href="https://julio-mansan2.github.io/qr-code/">Clique aqui!</a>
+- Página no GitHub Pages: <a href="https://julio-mansan2.github.io/landing-page/">Clique aqui!</a>
 
 ## Processo
 
@@ -62,30 +62,34 @@ Versão Mobile
 
 <br>
 
-- Centralizar elementos no centro da página com position absolute
+- Utilizar o font-awesome
 
-````css
+````html
 
-.div {
-    
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+        <a href="https://www.twitter.com/">
+            <i class="fab fa-instagram"></i>
+        </a>
 
-}
+PS: pasta do font-awesome instalada na raiz do projeto. 
 
 ````
 <br>
 
-- Utilizar o border radius
+- Aplicar certas animações em elementos com :hover
 
 ````css
 
-.div {
-    border-radius: valor desejado;
+    .container .informacoes a {
+
+    transition: 0.3s;
+
+}
+
+    .container .informacoes a:hover {
+
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+
 }
 
 ````
@@ -95,8 +99,9 @@ Versão Mobile
 
 <br>
 
-- Entender melhor acerca da utilização do responsivo;
-- Trabalhar melhor com medições;
+- Entender melhor acerca de medidas;
+- Utilizar o git ignore para arquivos desnecessários;
+- Posicionar os elementos com maior efetividade;
 - Escrever códigos mais compactos.
 
 <br>
