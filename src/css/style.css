@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+
+    
+
+}
+
+.header-container {
+
+    padding: 30px;
+    
+}
+
+.header-container img {
+
+   margin: 40px 50px;
+
+    
+}
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+.container .informacoes {
+    
+    max-width: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 17px;
+    padding: 20px;
+    
+
+}
+
+.container img {
+
+    margin-right: 50px;
+    
+
+}
+
+.container .informacoes h1 {
+
+    font: 600 30px 'Poppins';
+    color: #fff;
+
+}
+
+.container .informacoes p {
+
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Open Sans', monospace;
+
+}
+
+.container .informacoes a {
+
+    margin-top: 7px;
+    color: hsl(300, 69%, 71%);
+    background-color: #fff;
+    padding: 12px 60px;
+    align-self: flex-start;
+    border-radius: 100px;
+    transition: 0.3s;
+    font-weight: 600;
+    font-family: 'Open Sans', monospace;
+
+}
+
+.container .informacoes a:hover {
+
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+
+}
+
+
+.rodape {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-right: 30px;
+
+}
+
+.rodape a i {
+    
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #fff;
+    border-radius: 100%;
+    align-self: center;
+    transition: 0.3s;
+
+
+}
+
+.rodape a:hover i {
+
+    color: hsl(300, 69%, 71%);
+    border-color:  hsl(300, 69%, 71%);
+
+}
