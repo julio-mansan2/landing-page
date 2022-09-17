@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     body {
 
@@ -11,12 +11,12 @@
     .header-container a img {
 
         margin-bottom: 30px;
-        width: 200px;
+        width: 150px;
         
          
     }
 
-    .container img {
+    .main-container img {
 
         width: 300px;
         
@@ -24,13 +24,13 @@
         
     }
 
-    .container .informacoes h1 {
+    .main-container .informacoes h1 {
 
         font-size: 24px;
 
     }
     
-    .container .informacoes {
+    .main-container .informacoes {
 
         text-align: center;
         padding: 30px;
@@ -39,7 +39,7 @@
 
     }
 
-    .container .informacoes a {
+    .main-container .informacoes a {
 
         align-self: center;
 
