@@ -2,60 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-
     background: url(../images/bg-desktop.svg) no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
-
-    
-
 }
 
 .container {
-
     display: grid;
     grid-template-areas: 
     "header-container"
     "main-container"
     "rodape";
-    padding: 50px;
+    padding: 30px;
     justify-content: center;
-
-
-
 }
 
-
 .header-container {
-
-    grid-area: header-container;
-
-    
+    grid-area: header-container;   
 }
 
 .header-container a img {
-
-   margin: 50px 0px;
-
-    
+   margin-bottom: 50px; 
 }
 
 .main-container {
-
     grid-area: main-container;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-
-
-
 }
 
-
-
-
 .main-container .informacoes {
-    
     max-width: 28.125rem;
     display: flex;
     flex-direction: column;
@@ -63,60 +40,45 @@ body {
     gap: 30px;
     font-size: 17px;
     padding: 20px;
-    
-
 }
 
 
 
 .main-container .informacoes h1 {
-
     font: 600 30px 'Poppins';
     color: #fff;
-
 }
 
 .main-container .informacoes p {
-
     color: #fff;
     font-weight: 400;
     font-family: 'Open Sans', monospace;
-
 }
 
 .main-container .informacoes a {
-
     margin-top: 7px;
-    color: hsl(300, 69%, 71%);
+    color: hsl(257, 40%, 49%);
     background-color: #fff;
     padding: 12px 60px;
     align-self: flex-start;
     border-radius: 100px;
     transition: 0.3s;
-    font-weight: 600;
     font-family: 'Open Sans', monospace;
-
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .main-container .informacoes a:hover {
-
     color: #fff;
     background-color: hsl(300, 69%, 71%);
-
 }
-
 
 .rodape {
-
     grid-area: rodape;
     display: flex;
-    justify-content: flex-end;
-    
-
+    justify-content: flex-end;    
 }
 
-.rodape a i {
-    
+.rodape a i { 
     color: #fff;
     margin: 10px;
     padding: 10px;
@@ -124,13 +86,9 @@ body {
     border-radius: 100%;
     align-self: center;
     transition: 0.3s;
-
-
 }
 
 .rodape a:hover i {
-
     color: hsl(300, 69%, 71%);
     border-color:  hsl(300, 69%, 71%);
-
 }
